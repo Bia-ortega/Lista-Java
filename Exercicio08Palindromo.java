@@ -15,10 +15,10 @@ public class Exercicio08Palindromo {
         System.out.print("Digite uma palavra: ");
         String palavra = leitor.nextLine();
 
-        // Normalizar a string: remover espaços e converter para minúsculas
+    
         String palavraLimpa = palavra.replaceAll("\\s+", "").toLowerCase();
         
-        // Inverter a palavra
+        
         String palavraInvertida = new StringBuilder(palavraLimpa).reverse().toString();
 
         if (palavraLimpa.equals(palavraInvertida)) {
