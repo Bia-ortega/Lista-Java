@@ -13,8 +13,8 @@ public class Exercicio05DiasSemana {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        // O exercício pede "Utilizando Array", então vou usar um array simples 
-        // para ser mais direto ao ponto, mas mantendo a ideia da lista se necessário.
+
+
         String[] dias = {"Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"};
 
         System.out.print("Digite um número de 1 a 7: ");
